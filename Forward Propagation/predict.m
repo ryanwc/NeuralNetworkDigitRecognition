@@ -27,7 +27,7 @@ MaxFinal = zeros(size(X, 1), 1);
 % need to return the following variables correctly 
 p = zeros(size(X, 1), 1);
 
-% return index of max in row to know what hidden layer is
+% calculate hidden unit activation values
 hiddenOne = sigmoid(X * Theta1');
 % add bias unit to hidden layer
 hiddenOne = [ones(size(hiddenOne, 1), 1) hiddenOne];
