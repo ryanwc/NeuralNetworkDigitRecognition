@@ -2,7 +2,7 @@
 
 Neural Networks: Digit Recognition is a series of MATLAB scripts that use logistic regression and neural networks to classify handwritten digits.
 
-The project is divided into two parts: 1) comparing one-vs-all classification by logistic regression with one-vs-all classification by a neural network that uses given parameters (i.e., implementing forward propagation through the neural network with parameters known to perform well on the dataset) and 2) one-vs-all classification by a neural network that uses a backpropagation algorithm to learn parameters.  There are folders in this repo that correspond to each part.
+This project is divided into two parts.  The goal of each part is to correctly classify handwritten arabic numerals (from 0 to 9).  Part 1 compares completeing this task using logistic regression to using a neural network with given, pre-learned parameters.  Part 2 completes the task using a neural network that "learns" parameters through backpropagation of errors.  There are folders in this repo that correspond to each part.
 
 This project was completed for Stanford University's [Machine Learning](https://www.coursera.org/learn/machine-learning/) course offered on Coursera.
 
