@@ -4,7 +4,7 @@ Neural Networks: Digit Recognition is a series of MATLAB scripts that use logist
 
 The project is divided into two parts: 1) comparing one-vs-all classification by logistic regression with one-vs-all classification by a neural network that uses given parameters (i.e., implementing forward propagation through the neural network with parameters known to perform well on the dataset) and 2) one-vs-all classification by a neural network that uses a backpropagation algorithm to learn parameters.  There are folders in this repo that correspond to each part.
 
-This project was completed for Stanford University's Machine Learning course offered on Coursera.
+This project was completed for Stanford University's [Machine Learning](https://www.coursera.org/learn/machine-learning/) course offered on Coursera.
 
 # Technical Requirements
 
@@ -36,7 +36,7 @@ Part 1 of this project compares logistic regression to a neural network for the 
 
 Part 1 is found in the "Forward Propagation" Folder of this repo.
 
-### Part 1: Files in the Forward Propagation Folder
+### Files in the Forward Propagation Folder
 
 1. ex3.m - script that prepares data and calls functions to classify digits using only logistic regresison (and not neural networks)
 2. ex3_nn.m - script that prepares data and calls functions to classify digits using a neural network with pre-determined, well-performing parameters
@@ -52,7 +52,7 @@ Part 1 is found in the "Forward Propagation" Folder of this repo.
 
 [*] indicates a file a in which I wrote substantial code.  The other files were provided by the professor (Andrew Ng) and I have only modified them slightly if at all.
 
-## Part 1: Forward Propagation Program Flow
+### Forward Propagation Program Flow
 
 To classify handwritten digits using logsitic regression, you should open and run the file named "ex3.m" in MATLAB/Octave.  ex3.m does the following:
 
@@ -96,7 +96,7 @@ Part 2 of this project classifies handwritten digits using a neural network that
 
 Part 2 is found in the "Backward Propagation" Folder of this repo.
 
-### Part 2: Files in the Backward Propagation Folder
+### Files in the Backward Propagation Folder
 
 1. ex4.m - Script that loads data and calls functions
 2. ex4data1.mat - Training data set of hand-written digits
@@ -114,7 +114,7 @@ Part 2 is found in the "Backward Propagation" Folder of this repo.
 
 [*] indicates a file in which I wrote substantial code.  The other files were provided by the professor (Andrew Ng) and I have only modified them slightly if at all.
 
-### Part 2: Backward Propagation Program Flow
+### Backward Propagation Program Flow
 
 To classify handwritten digits using a neural network that learns parameters from a given data set, you should open and run the file named "ex4.m" in MATLAB/Octave.  ex4.m works with data sets of any size and for any number of classes K such that K >= 3.
 
